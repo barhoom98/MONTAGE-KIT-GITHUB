@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff4c9b" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#ff4c9b" stop-opacity=".38"/>
+      <stop offset=".52" stop-color="#fff5c2" stop-opacity=".55"/>
+      <stop offset=".76" stop-color="#42e9ff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#42e9ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <g transform="rotate(-18 960 540)" fill="url(#spectrum)">
+    <rect x="-150" y="300" width="2200" height="14" opacity=".42" filter="url(#glow)"/>
+    <rect x="-150" y="310" width="2200" height="3" opacity=".7"/>
+    <rect x="240" y="680" width="1640" height="8" opacity=".28" filter="url(#glow)"/>
+    <rect x="240" y="684" width="1640" height="2" opacity=".62"/>
+  </g>
+  <circle cx="1430" cy="420" r="7" fill="#fff9dc" opacity=".7"/>
+</svg>
