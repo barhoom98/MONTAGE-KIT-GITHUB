@@ -1,0 +1,7 @@
+{
+  "name": "quizzawi-ig",
+  "description": "سكيلات عربية (لهجة أردنية) لإدارة حساب إنستغرام والريلز: هوكات مقيّمة، توقيت السكربت، كابشن، تحليل أداء، خطة أسبوعية، وفاحص لهجة أردنية.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "arabic", "jordanian", "quiz"]
+}
