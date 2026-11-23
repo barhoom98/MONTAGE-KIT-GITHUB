@@ -15,12 +15,13 @@ const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "public", "q
 
 // خيارات التنزيل: رسم عثماني، مع علامات الوقف وعلامة السجدة،
 // وبدون علامة الربع (۞) حتى ما تطلع ببداية الآيات على الشاشة.
+// ملاحظة: الخيارات عبارة عن checkboxes، فوجود الخيار بالرابط معناه "مفعّل"
+// حتى لو قيمته false. عشان نلغي علامة الربع بنحذف rub من الرابط كلياً.
 const TEXT_URL =
   "https://tanzil.net/pub/download/index.php?" +
   new URLSearchParams({
     marks: "true",
     sajdah: "true",
-    rub: "false",
     tatweel: "true",
     quranType: "uthmani",
     outType: "txt-2",
@@ -55,6 +56,9 @@ if (verses.size !== TOTAL_AYAT) {
   fail(`عدد الآيات ${verses.size} بدل ${TOTAL_AYAT}. أول 300 حرف من الرد:\n${text.slice(0, 300)}`);
 }
 if (!text.includes("Tanzil")) fail("النص نزل بدون شروط الاستخدام تبعت تنزيل، في إشي غلط بالرابط");
+if ([...verses.values()].some((v) => v.includes("۞"))) fail("علامة الربع ۞ لسا موجودة بالنص");
+const sajdat = [...verses.values()].filter((v) => v.includes("۩")).length;
+if (sajdat !== 15) fail(`عدد علامات السجدة ${sajdat} بدل 15`);
 
 // 2) بيانات السور من quran-data.xml
 const suras = [];
