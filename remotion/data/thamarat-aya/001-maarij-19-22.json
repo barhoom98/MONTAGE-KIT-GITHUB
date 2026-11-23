@@ -1,0 +1,16 @@
+{
+  "composition": "AyahReel",
+  "props": {
+    "channel": "thamarat-aya",
+    "episode": 1,
+    "sura": 70,
+    "ayaFrom": 19,
+    "ayaTo": 22,
+    "reciter": "Yasser_Ad-Dussary_128kbps",
+    "lessons": [
+      "اكتب الثمرة الأولى هون بعد مراجعة التفسير",
+      "اكتب الثمرة الثانية هون بعد مراجعة التفسير"
+    ]
+  },
+  "cover": { "badge": "الحلقة 1", "title": "سورة المعارج", "subtitle": "الآيات 19–22" }
+}
