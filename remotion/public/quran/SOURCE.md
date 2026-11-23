@@ -2,10 +2,10 @@
 
 - المصدر: مشروع تنزيل (Tanzil Project) — https://tanzil.net
 - النوع: الرسم العثماني (Uthmani)، مع علامات الوقف والسجدة، بدون علامة الربع
-- رابط التنزيل: https://tanzil.net/pub/download/index.php?marks=true&sajdah=true&rub=false&tatweel=true&quranType=uthmani&outType=txt-2&agree=true
+- رابط التنزيل: https://tanzil.net/pub/download/index.php?marks=true&sajdah=true&tatweel=true&quranType=uthmani&outType=txt-2&agree=true
 - بيانات السور: https://tanzil.net/res/text/metadata/quran-data.xml
 - عدد الآيات: 6236 — عدد السور: 114
-- SHA-256 لملف quran-uthmani.txt: `7f30c647331a61100ebf24a80507dc0fcdd9f2df97f1312b5b2dfcb982a7f326`
+- SHA-256 لملف quran-uthmani.txt: `6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f`
 
 ## شروط الاستخدام (كما وردت في الملف)
 
