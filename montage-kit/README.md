@@ -455,3 +455,7 @@ python3 montage-kit/generate.py sfx boing  # عنصر محدد
 لإضافة مؤثر جديد: أضف دالته في الملف المناسب داخل `kit/` وسجّله في القاموس أسفل الملف.
 
 </div>
+
+
+## قواعد المؤثرات الصوتية
+متى نستعمل Fuhh وWhoosh وRiser وClick Impact وDing وRegister وShutter: [SFX-RULES-AR.md](SFX-RULES-AR.md)
